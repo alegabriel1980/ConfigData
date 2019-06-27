@@ -2,3 +2,28 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
+
+---
+spring:
+  profiles: sujeto
+words: Yo,Tu,El,Nosotros,Vosotros,Ellos
+
+---
+spring:
+  profiles: verbo
+words: salta,corre,come,programa,juega,lee
+
+---
+spring:
+  profiles: articulo
+words: el,la,los,las
+
+---
+spring:
+  profiles: adjetivo
+words: lindo,maravilloso,hermoso,grande,perfecto
+
+---
+spring:
+  profiles: sustantivo
+words: gato,bote,computadora,silla,mesa,juguete
